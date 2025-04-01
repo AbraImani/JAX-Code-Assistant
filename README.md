@@ -43,25 +43,25 @@ L’ensemble du processus d’entraînement, du prétraitement des données à l
 
 ```plaintext
 JAX-Code-Assistant/
-├── README.md                  # Présentation du projet et explications détaillées
-├── requirements.txt           # Liste des dépendances (JAX, Flax, Optax, etc.)
-├── .gitignore                 # Fichiers à ignorer par Git
-├── data/                      # Dossier pour stocker les données
-│   ├── raw/                   # Données brutes (scripts, exemples de code)
-│   └── processed/             # Données prétraitées (CSV/JSON de paires question/code)
-├── notebooks/                 # Notebooks Jupyter pour démonstrations et tutoriels
+├── README.md                  
+├── requirements.txt           
+├── .gitignore                 
+├── data/                      
+│   ├── raw/                   
+│   └── processed/             
+├── notebooks/                 
 │   ├── Code_Generation_Example.ipynb    
 │   └── QnA_Example.ipynb                
-├── src/                       # Code source pour l’entraînement et l’évaluation
+├── src/                       
 │   ├── models/                
-│   │   ├── train.py           # Script d’entraînement du modèle
-│   │   └── fine_tune.py       # Fonctions spécifiques pour le fine-tuning
+│   │   ├── train.py           
+│   │   └── fine_tune.py       
 │   ├── evaluation/            
-│   │   └── evaluate.py        # Script d’évaluation du modèle
+│   │   └── evaluate.py        
 │   └── utils/                 
-│       ├── preprocessing.py   # Script de prétraitement des données
-│       └── dataset_loader.py  # Chargement et gestion des datasets
+│       ├── preprocessing.py  
+│       └── dataset_loader.py  
 └── docs/                      
-    ├── documentation.md       # Documentation détaillée du projet
-    └── blog_post.md           # Ébauche d’un article de blog (optionnel)
+    ├── documentation.md       
+    └── blog_post.md           
 
